@@ -1,0 +1,142 @@
+[
+    {
+        "answer": "pipis dalam kolam / pipis",
+        "point": 32,
+        "QuestionId": 1
+    },
+    {
+        "answer": "lari ke toilet / ke toilet",
+        "point": 24,
+        "QuestionId": 1
+    },
+    {
+        "answer": "ditahan / tahan",
+        "point": 22,
+        "QuestionId": 1
+    },
+    {
+        "answer": "naik / pinggir kolam",
+        "point": 18,
+        "QuestionId": 1
+    },
+    {
+        "answer": "pakai jaket / jaket",
+        "point": 37,
+        "QuestionId": 2
+    },
+    {
+        "answer": "makan teratur / makan",
+        "point": 23,
+        "QuestionId": 2
+    },
+    {
+        "answer": "minum obat / obat",
+        "point": 15,
+        "QuestionId": 2
+    },
+    {
+        "answer": "tidak begadang",
+        "point": 9,
+        "QuestionId": 2  
+    },
+    {
+        "answer": "tidur",
+        "point": 39,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "minum kopi",
+        "point": 28,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "makan",
+        "point": 13,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "minum teh",
+        "point": 8,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "main ponsel / main handphone",
+        "point": 43,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "membaca / baca",
+        "point": 34,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "merokok",
+        "point": 11,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "dengar musik / mendengarkan music",
+        "point": 7,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "kopi",
+        "point": 52,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "susu",
+        "point": 24,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "teh",
+        "point": 12,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "bandrek",
+        "point": 6,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "kertas",
+        "point": 37,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "tinta",
+        "point": 32,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "printer",
+        "point": 16,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "catridge",
+        "point": 15,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "menabung",
+        "point": 41,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "bekerja",
+        "point": 26,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "hutang / mengutang",
+        "point": 14,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "menjual barang lain / jual barang",
+        "point": 5  ,
+        "QuestionId": 7  
+    }
+]
