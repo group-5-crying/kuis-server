@@ -15,6 +15,9 @@ app.use('/', route)
 
 let userLogin = []
 let messages = []
+let questions = []
+let answers = []
+let thisRoundAnswer = []
 let time = 20
 let gameStart
 
@@ -59,6 +62,81 @@ io.on('connection', (socket) => {
     socket.on('resetTimer', () => {
         time = 20
         io.emit('fetchTime', time)
+    })
+
+    socket.on('fetchQuestion', () => {
+        const option = {
+            include: Answer,
+            order: [Sequelize.fn('random')],
+            limit: 5
+
+        }
+        Question.findAll(option)
+            .then(data => {
+                questions = data.map(el => {
+                    return el.question
+                })
+                answers = data.map(el => {
+                    return el.Answers
+                })
+                const question = questions.pop()
+                const answer = answers.pop()
+                thisRoundAnswer = answer
+                io.emit('questionsList', {
+                    question,
+                    answer
+                })
+            })
+            .catch(err => {
+                console.log(err)
+            })
+    })
+
+    socket.on('compareAnswer', (payload) => {
+        let isTrue = false
+        let id
+
+        for (let i = 0; i < thisRoundAnswer.length; i++) {
+            const answer = thisRoundAnswer[i].answer.toLowerCase()
+            const thisId = thisRoundAnswer[i].id
+            if (answer === payload.answer.toLowerCase()) {
+                isTrue = true
+                id = thisId
+                thisRoundAnswer.splice(i, 1)
+            }
+        }
+        const data = {
+            isTrue,
+            id,
+            user: payload.user
+        }
+        const message = {
+            isTrue,
+            answer: payload.answer,
+            user: payload.user
+        }
+        messages.unshift(message)
+        io.emit('messages', messages)
+        io.emit('compareAnswer', data)
+    })
+
+    socket.on('getQuestion', () => {
+        if (questions.length) {
+            const question = questions.pop()
+            const answer = answers.pop()
+            thisRoundAnswer = answer
+            io.emit('questionsList', {
+                question,
+                answer
+            })
+        } else {
+            const question = ''
+            const answer = ''
+            io.emit('questionsList', {
+                question,
+                answer
+            })
+        }
     })
 })
 
