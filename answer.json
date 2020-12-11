@@ -1,81 +1,81 @@
 [
     {
-        "answer": "pipis dalam kolam / pipis",
+        "answer": "ditahan",
         "point": 32,
         "QuestionId": 1
     },
     {
-        "answer": "lari ke toilet / ke toilet",
+        "answer": "ketoilet",
         "point": 24,
         "QuestionId": 1
     },
     {
-        "answer": "ditahan / tahan",
+        "answer": "cuek",
         "point": 22,
         "QuestionId": 1
     },
     {
-        "answer": "naik / pinggir kolam",
+        "answer": "nangis",
         "point": 18,
         "QuestionId": 1
     },
     {
-        "answer": "pakai jaket / jaket",
+        "answer": "doa",
         "point": 37,
         "QuestionId": 2
     },
     {
-        "answer": "makan teratur / makan",
+        "answer": "telfon pacar",
         "point": 23,
         "QuestionId": 2
     },
     {
-        "answer": "minum obat / obat",
+        "answer": "bengong",
         "point": 15,
         "QuestionId": 2
     },
     {
-        "answer": "tidak begadang",
+        "answer": "tidur",
         "point": 9,
         "QuestionId": 2  
     },
     {
-        "answer": "tidur",
+        "answer": "belajar",
         "point": 39,
         "QuestionId": 3  
     },
     {
-        "answer": "minum kopi",
+        "answer": "pura pura lupa",
         "point": 28,
         "QuestionId": 3  
     },
     {
-        "answer": "makan",
+        "answer": "begadang",
         "point": 13,
         "QuestionId": 3  
     },
     {
-        "answer": "minum teh",
+        "answer": "nangis",
         "point": 8,
         "QuestionId": 3  
     },
     {
-        "answer": "main ponsel / main handphone",
+        "answer": "caper",
         "point": 43,
         "QuestionId": 4  
     },
     {
-        "answer": "membaca / baca",
+        "answer": "ngasih makan",
         "point": 34,
         "QuestionId": 4  
     },
     {
-        "answer": "merokok",
+        "answer": "menyabari",
         "point": 11,
         "QuestionId": 4  
     },
     {
-        "answer": "dengar musik / mendengarkan music",
+        "answer": "meninggalkanya",
         "point": 7,
         "QuestionId": 4  
     },
@@ -85,7 +85,7 @@
         "QuestionId": 5  
     },
     {
-        "answer": "susu",
+        "answer": "stmj",
         "point": 24,
         "QuestionId": 5  
     },
@@ -100,43 +100,63 @@
         "QuestionId": 5  
     },
     {
-        "answer": "kertas",
+        "answer": "kesedihan",
         "point": 37,
         "QuestionId": 6  
     },
     {
-        "answer": "tinta",
+        "answer": "nangis",
         "point": 32,
         "QuestionId": 6  
     },
     {
-        "answer": "printer",
+        "answer": "les",
         "point": 16,
         "QuestionId": 6  
     },
     {
-        "answer": "catridge",
+        "answer": "kerja",
         "point": 15,
         "QuestionId": 6  
     },
     {
-        "answer": "menabung",
+        "answer": "ga ada",
         "point": 41,
         "QuestionId": 7  
     },
     {
-        "answer": "bekerja",
+        "answer": "engga ada",
         "point": 26,
         "QuestionId": 7  
     },
     {
-        "answer": "hutang / mengutang",
+        "answer": "jawaban kosong",
         "point": 14,
         "QuestionId": 7  
     },
     {
-        "answer": "menjual barang lain / jual barang",
+        "answer": "salah soal",
         "point": 5  ,
         "QuestionId": 7  
+    },
+    {
+        "answer": "Viu",
+        "point": 41,
+        "QuestionId": 8  
+    },
+    {
+        "answer": "Ican",
+        "point": 26,
+        "QuestionId": 8  
+    },
+    {
+        "answer": "lita",
+        "point": 14,
+        "QuestionId": 8 
+    },
+    {
+        "answer": "fadhil",
+        "point": 5  ,
+        "QuestionId": 8 
     }
 ]
