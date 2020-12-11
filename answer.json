@@ -1,0 +1,162 @@
+[
+    {
+        "answer": "ditahan",
+        "point": 32,
+        "QuestionId": 1
+    },
+    {
+        "answer": "ketoilet",
+        "point": 24,
+        "QuestionId": 1
+    },
+    {
+        "answer": "cuek",
+        "point": 22,
+        "QuestionId": 1
+    },
+    {
+        "answer": "nangis",
+        "point": 18,
+        "QuestionId": 1
+    },
+    {
+        "answer": "doa",
+        "point": 37,
+        "QuestionId": 2
+    },
+    {
+        "answer": "telfon pacar",
+        "point": 23,
+        "QuestionId": 2
+    },
+    {
+        "answer": "bengong",
+        "point": 15,
+        "QuestionId": 2
+    },
+    {
+        "answer": "tidur",
+        "point": 9,
+        "QuestionId": 2  
+    },
+    {
+        "answer": "belajar",
+        "point": 39,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "pura pura lupa",
+        "point": 28,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "begadang",
+        "point": 13,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "nangis",
+        "point": 8,
+        "QuestionId": 3  
+    },
+    {
+        "answer": "caper",
+        "point": 43,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "ngasih makan",
+        "point": 34,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "menyabari",
+        "point": 11,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "meninggalkanya",
+        "point": 7,
+        "QuestionId": 4  
+    },
+    {
+        "answer": "kopi",
+        "point": 52,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "stmj",
+        "point": 24,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "teh",
+        "point": 12,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "bandrek",
+        "point": 6,
+        "QuestionId": 5  
+    },
+    {
+        "answer": "kesedihan",
+        "point": 37,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "nangis",
+        "point": 32,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "les",
+        "point": 16,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "kerja",
+        "point": 15,
+        "QuestionId": 6  
+    },
+    {
+        "answer": "ga ada",
+        "point": 41,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "engga ada",
+        "point": 26,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "jawaban kosong",
+        "point": 14,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "salah soal",
+        "point": 5  ,
+        "QuestionId": 7  
+    },
+    {
+        "answer": "Viu",
+        "point": 41,
+        "QuestionId": 8  
+    },
+    {
+        "answer": "Ican",
+        "point": 26,
+        "QuestionId": 8  
+    },
+    {
+        "answer": "lita",
+        "point": 14,
+        "QuestionId": 8 
+    },
+    {
+        "answer": "fadhil",
+        "point": 5  ,
+        "QuestionId": 8 
+    }
+]
