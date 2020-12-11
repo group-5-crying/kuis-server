@@ -4,11 +4,12 @@ const PORT = process.env.PORT || 3000
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const cors = require('cors') 
-const {Question, Answer} = require ("./models")
+const route = require('./routes')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())
+app.use('/', route)
 
 let userLogin = []
 
@@ -18,21 +19,6 @@ io.on('connection', (socket) => {
     socket.on('login', (user) => {
         userLogin.push(user)
         io.emit('userLogin', userLogin)
-    })
-})
-
-app.get('/quiz', (req, res) => {
-    let dataAnswers = {
-        include : {
-            model: Answer
-        }
-    }
-    Question.findAll(dataAnswers)
-    .then(data => {
-        res.status(200).json(data)
-    })
-    .catch(err => {
-        res.status(err.status).json(err)
     })
 })
 
