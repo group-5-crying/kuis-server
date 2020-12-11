@@ -4,14 +4,12 @@ const PORT = process.env.PORT || 3000
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const cors = require('cors')
-const route = require('./routes')
 
 app.use(express.urlencoded({
     extended: true
 }))
 app.use(express.json())
 app.use(cors())
-app.use('/', route)
 
 let userLogin = []
 let messages = []
