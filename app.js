@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 3000
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const cors = require('cors')
+const { Question, Answer, Sequelize } = require('./models/')
 
 app.use(express.urlencoded({
     extended: true
